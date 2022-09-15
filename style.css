@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-areas: 
+        'header header header header'
+        'header header header header'
+        'nav article article aside'
+        'nav article article aside'
+        'nav article article aside'
+        'nav article article aside'
+        'footer footer footer footer';
+        width: 60vw;
+        height: 70vh;
+        margin: 0 auto;
+}
+
+.header { 
+    grid-area: header; 
+    background-color: greenyellow;
+}
+
+.nav { 
+    grid-area: nav; 
+    background-color: beige;
+}
+
+.article { 
+    grid-area: article; 
+    background-color: azure;
+}
+
+.aside { 
+    grid-area: aside; 
+    background-color: beige;
+}
+
+.footer { 
+    grid-area: footer; 
+    background-color: yellow;
+}
